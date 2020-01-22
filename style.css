@@ -1,0 +1,66 @@
+.container{
+    display:flex;
+    justify-content: space-between;
+    flex-direction: column;
+    width: 100vw;
+}
+
+div{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.header{
+    background: yellow;
+    width: 100%;
+    height: 150px;
+    
+}
+
+.wrapper{
+    display:flex;
+    width: 100%;
+}
+
+.flexChild{
+    background:aqua;
+    width: 33%;
+    margin: 0;
+    padding: 0;
+    height: 150px;
+}
+
+.red{
+    background: red;
+}
+
+.wrapper2{
+    position: relative;
+    width: 100%;
+    background: blue;
+    height: 450px;
+}
+
+.absoluteBox{
+    background: green;
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    left:60px;
+    top:45px;
+    z-index: 10;
+    margin: 0;
+}
+
+.longBox{
+    width: 98%;
+    margin: 10% 10px;
+    height: 125px;
+    background: lightblue;
+}
+
+.footer{
+    width: 100%;
+    background: orange;
+    height: 150px;
+}
